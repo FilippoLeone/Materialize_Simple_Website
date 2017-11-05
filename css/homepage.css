@@ -1,0 +1,27 @@
+.nav-wrapper {
+  background-color: #b71c1c !important;
+}
+.page-footer{
+  background-color: #b71c1c !important;	
+}
+div.footer-copyright{
+  background-color: #d32f2f !important;	
+}
+img.responsive-img {
+    border-radius: 10px;
+}
+div.card-content.black-text {
+	background-color: white;
+}
+blockquote.whoami {
+	color: black-text !important; 
+}
+a.hoverable.waves-effect.btn-large {
+	background-color: #d32f2f;	
+}
+span.hoverable.new.badge{
+	background-color: #ff5252;
+}
+div.card-panel.grey.lighten-5.z-depth-1{
+	background-color: transparent;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="js/homepage.js"></script>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="css/homepage.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+  <script src="https://swc.cdn.skype.com/sdk/v1/sdk.min.js"></script>
+	<!-- Menu Start -->
+	<header class="page-head">
+		<nav>
+		  <div class="nav-wrapper">
+			<a href="/" class="center-align brand-logo"></a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+			  <li><a href="/">HomePage</a></li>
+			  <li><a href="/system">System<span class="hoverable new badge">1</span></a></li>
+			  <li><a href="/source">Source<span class="hoverable new badge">2</span></a></li>
+			</ul>
+		  </div>
+		</nav>
+	</header>
+	<!-- Menu End --> 
+	<div class="container center">
+		<h1>Contact Me on Skype</h1>
+	<div class="divider"></div><div class="divider"></div><div class="divider"></div><div class="divider"></div>
+	<br><br>
+      <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div class="hoverable card-panel grey lighten-5 z-depth-1">
+          <div class="row valign-wrapper">
+            <div class="col s2">
+              <img src="resources/logo.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+                My Skype contact: ///// 
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+  <br><br>
+  <h5>Or send me a message<h5>
+  <br><br>
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Name" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="Surname" id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="E-mail" id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+			<textarea placeholder="Comment" id="textarea1" class="materialize-textarea"></textarea>
+			<label for="textarea1">Comment Here</label>
+        </div>
+      </div>
+    </form>
+  </div>
+	<a class="hoverable waves-effect red btn" onclick="validateForm()">Send Message</a>
+  </div>
+</body>
+<br><br><br><br><br>
+<footer class="page-footer">
+  <div class="footer-copyright">
+	<div class="container">2017 Made by North<a class="grey-text text-lighten-3 right" href="#!">GitHub!</a>
+	</div>
+  </div>
+</footer>
+</html>
